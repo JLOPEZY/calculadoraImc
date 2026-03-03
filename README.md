@@ -1,1 +1,12 @@
-# calculadoraImc
+nombre = input('Ingresa tu nombre: ')
+apellidoP = input('Ingresa tu apellido paterno: ')
+apellidoM = input('Ingresa tu apellido materno: ')
+edad = int( input('¿Cual es tu edad? '))
+peso = float( input('¿Cual es tu peso? '))
+estatura = float (input('Ingresa tu estatura: '))
+indice = peso / (estatura **2)
+
+print('Nombre: ' + nombre)
+print('Apellido Paterno: ' + apellidoP)
+print('Apellido Materno: ' + apellidoM)
+print(f'Tu IMC es : {indice:.2f}')
